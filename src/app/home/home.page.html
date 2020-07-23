@@ -29,6 +29,7 @@
     </ion-button>
   </form>
 
+  <img [src]="photoPreview" *ngIf="photoPreview" />
   <ion-button expand="full" (click)="takePicture()">Add Picture</ion-button>
   <ion-button
     expand="full"
